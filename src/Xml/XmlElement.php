@@ -16,4 +16,8 @@ class XmlElement extends SimpleXMLElement {
         $json = $this->toJson();
         return json_decode($json, true);
     }
+
+    public function toString() {
+        //TODO: Convert string logic needs to be implement
+    }
 }
