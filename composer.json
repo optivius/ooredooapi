@@ -1,0 +1,29 @@
+{
+  "name": "applab/ooredooapi",
+  "description": "Ooredoo Messenger API",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "junaidck",
+      "email": "junaid@applab.qa"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": "^7.2",
+    "ext-soap": "*",
+    "ext-xml": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Applab\\Ooredoo\\": "src/"
+    },
+    "classmap": [
+      "src/"
+    ]
+  },
+  "require-dev": {
+    "symfony/var-dumper": "5.4.x-dev"
+  }
+}
